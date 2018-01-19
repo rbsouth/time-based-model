@@ -1,0 +1,121 @@
+html { 
+  background: url("images/whispybg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300%
+}
+.header {
+	width:100%;
+}
+#header {
+	font-family: "EB Garamond";
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	text-align: center;
+}
+#the-modal {
+	border-radius: 5px;
+	height: 350px;
+	width: 900px;
+	opacity: .9;
+	background: grey;
+	z-index: 1;
+	position: fixed;
+	top: 185px;
+	left: 185px;
+	display: none;
+}
+#model-header {
+	font-family: "EB Garamond";
+	font-size: 35px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	text-align: center;
+}
+#model-message {
+	font-family: "EB Garamond";
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	margin: 20px;
+	line-height: 150%;
+}
+#email{
+	height: 17px;
+	width: 200px;
+	position: absolute;
+	top: 220px;
+	left: 470px;
+}
+#elabel {
+	position: absolute;
+	top: 220px;
+	left: 400px;
+}
+#submit {
+	display: block; 
+	height: 24px;
+	width: 150px;
+  position: absolute;
+  top: 219.7px;
+  left: 700px;
+}
+#exit {
+	background: red;
+	position: absolute;
+	top: -7px;
+	right: -10px;
+	border-radius: 50%;
+}
+#column {
+	height: 1000px;
+	width: 500px;
+	background: #bfcfdc;
+	position: absolute;
+	left: 200px;
+}
+#box1 {
+	
+}
+#box2 {
+	
+}
+#box3 {
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	right: 100px;
+	background: #bfcfdc;
+}
+#box4 {
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	right: 100px;
+	top: 400px;
+	background: #bfcfdc;
+}
+.sub-header {
+	font-family: "EB Garamond";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+.sub-content {
+	font-family: "EB Garamond";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
